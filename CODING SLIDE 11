@@ -1,0 +1,18 @@
+package selfProgramming;
+
+public class Slide11 {
+
+	public static void main (String[]args) {
+		double total = 123.45;
+		double max = 25.50;
+		double charge;
+		
+		
+		if (total > max)
+			charge = total * max;
+		System.out.println("The total is " + total);
+		
+		
+	}
+
+}
