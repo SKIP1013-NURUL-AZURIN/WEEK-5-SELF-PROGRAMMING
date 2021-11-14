@@ -1,0 +1,15 @@
+package selfProgramming;
+
+class Slide16 {
+
+	public static void main(String[] args) {
+		double income = 1200;
+		int min_level = 900;
+		int age = 35;
+		
+		if((income > min_level) && (age < 50))
+			System.out.println("Can Apply Loan");
+
+	}
+
+}
